@@ -1,0 +1,11 @@
+pipenv shell                            //starts environment
+pipenv install [package_name]           //install library or framework
+pipenv install [package_name] --dev     //install library or framework in developer mode, like test mode
+pipenv lock -r                          //show dependencies 
+pipenv graph                            //show graph of dependencies
+pipenv check                            //lock for updates or security issues
+pipenv install                          //install all packages from list Pipfile.
+pipenv lock                             //lock dependencies and packages for deploy file Pipfile.lock
+pipenv install --ignore-pipfile         //install dependencies and packages from deploy file Pipfile.lock
+exit                                    //end virtual environment
+pipenv --rm                             //finish virtual environment
